@@ -1,0 +1,26 @@
+
+** Basic Strategy
+   Have a short-term index, long-term index, and cash. Adjust the allocation between them as market conditions change. Run simulations on market data from 2006-2011, which captures the largest market downturn in recent history, to find an optimal set of variables that give the greatest return. 
+  
+*** Variables
+    - Trading fee
+    - index pair
+    - RSI (relative strength index)
+      - signal length (period to calculate RSI over)
+    - TRI (total return index)
+    - VXX (short-term volatility index)
+    - VIXM (mid-term volatility index)
+    - Diff of 52-wk high-low between index pair
+
+** Indexes
+| Ticker | Div yield | Long/Short term |    ER | Description | Link                                                                                                                             |
+|--------+-----------+-----------------+-------+-------------+----------------------------------------------------------------------------------------------------------------------------------|
+| LQD    |     3.41% | Long            | 0.15% | Corp. Bonds | https://www.ishares.com/us/literature/fact-sheet/lqd-ishares-iboxx-investment-grade-corporate-bond-etf-fund-fact-sheet-en-us.pdf |
+| XLU    |     3.12% |                 |       |             |                                                                                                                                  |
+| TLT    |     2.31% |                 |       |             |                                                                                                                                  |
+| SHY    |     2.09% |                 |       |             |                                                                                                                                  |
+| BLV    |     3.52% |                 |       |             |                                                                                                                                  |
+| VYM    |     2.56% |                 |       |             |                                                                                                                                  |
+| SPY    |           |                 |       |             |                                                                                                                                  |
+| AGG    |     2.70% |                 |       |             |                                                                                                                                  |
+|        |           |                 |       |             |                                                                                                                                  |
